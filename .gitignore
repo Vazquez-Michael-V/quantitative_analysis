@@ -1,9 +1,16 @@
-
 # Files
 *.pdf
 *.html
 *.png
 *.zip
+
+# Data
+data/
+*.parquet
+*.csv
+*.xlsx
+*.xls
+*.json
 
 # Python
 __pycache__/
@@ -13,6 +20,8 @@ __pycache__/
 
 # Environment
 .env
+.env.*
+*.env
 venv/
 .venv/
 
